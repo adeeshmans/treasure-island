@@ -30,7 +30,6 @@ choice1 = input(
 if choice1 == "left":
     choice2 = input(
         'You have come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
-
     if choice2 == "wait":
         # Game continue
         choice3 = input(
@@ -46,6 +45,5 @@ if choice1 == "left":
             print("You chose a door that doesn't exist. Game Over.")
     else:
         print(" You got attacked by group of sharks.Game Over !")
-
 else:
     print("You fell into a hole. Game Over.")
