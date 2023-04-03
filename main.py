@@ -24,6 +24,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your goal is to find the treasure.")
 
+# logic
 choice1 = input(
     "You are at a crossroad, where do you want to go? Type 'left' or 'right'.").lower()
 # Continues in the game
@@ -34,7 +35,6 @@ if choice1 == "left":
         # Game continue
         choice3 = input(
             "You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n").lower()
-
         if choice3 == "red":
             print("It's a room full of fire. Game Over.")
         elif choice3 == "yellow":
